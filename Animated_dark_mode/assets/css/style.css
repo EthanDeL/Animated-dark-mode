@@ -1,0 +1,46 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* VARIABLES */
+:root{
+    /* COLORS */
+        /* BACKGROUND COLOR */
+    --dark-night-color: hsl(230, 48%, 24%); 
+    --light-night-color : hsl(263, 50%, 55%); 
+    --night-color: linear-gradient(var(--dark-night-color), var(--light-night-color));
+
+    --dark-blue-sky-color: hsl(221, 87%, 64%); 
+    --light-blue-sky-color: hsl(193, 100%, 88%); 
+    --sky-color: linear-gradient(var(--dark-blue-sky-color), var(--light-blue-sky-color));
+
+        /* MOUNTAINS COLORS */
+    --dark-blue-mountain: hsl(223, 62%, 36%); 
+    --medium-blue-mountain:hwb(225 20% 36%); 
+    --light-blue-mountain: hsl(227, 46%, 47%); 
+
+    --dark-gray-mountain : hsl(170, 5%, 50%); 
+    --medium-gray-mountain : hsl(172, 5%, 66%); 
+    --light-gray-mountain : hsl(170, 5%, 77%); 
+
+        /* MOON */
+    --moon: hsl(0, 0%, 100%); 
+    --light-moon :hsla(0, 0%, 100%, 0.537); 
+    --sun : hsl(53, 100%, 90%); 
+    --light-sun : hsla(53, 100%, 90%, 0.58); 
+    
+    --road : hsl(0, 1%, 25%); 
+    --line : hsl(0, 0%, 89%); 
+}
+
+/* BASE */ 
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* BODY */
+
+
+/* CONTAINER */
